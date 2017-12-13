@@ -21,7 +21,6 @@ const Footer = () => {
         <div className='center'>
 
           <img src={email} className='email' alt='email logo' />
-
           <div className='text-container'>
             <a href="mailto:design@nea.com">Click here for questions</a>
           </div>
