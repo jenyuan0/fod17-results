@@ -1,0 +1,17 @@
+.container{
+	margin-top:55px;
+	min-height:calc(100vh - 55px);
+	overflow:hidden;
+	transition:400ms opacity
+	}
+
+.container.isLoading{
+	opacity:0
+	}
+
+section .title{
+	display:none;
+	font-size:2em;
+	font-weight:normal;
+	text-decoration:underline
+	}

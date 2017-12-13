@@ -1,0 +1,27 @@
+.section-product-practices{
+	padding:60px 0
+	}
+
+.section-product-practices .practices-title{
+	display:inline-block;
+	width:50%
+	}
+
+	.section-product-practices .practices-title .type-large{
+		width:90%;
+		max-width:380px;
+		margin:auto
+		}
+
+.section-product-practices .practices-content{
+	display:inline-block;
+	width:50%
+	}
+
+	.section-product-practices .practices-content li{
+		margin:0 0 20px
+		}
+
+	.section-product-practices .practices-content li:last-of-type{
+		margin:0
+		}

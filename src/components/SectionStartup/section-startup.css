@@ -1,0 +1,41 @@
+.section-startup{
+	padding:.1px
+	}
+
+	.section-startup .width{
+		margin:120px auto
+		}
+
+.startup-image img{
+	max-width:360px
+	}
+
+.startup-content{
+	display:inline-block;
+	width:50%
+	}
+
+	.startup-content .startup-heading{
+		max-width:400px;
+		margin:0 0 80px
+		}
+
+	.startup-content .startup-copy{
+		max-width:550px
+		}
+
+.startup-image{
+	display:inline-block;
+	width:50%
+	}
+
+	.startup-image img{
+		width:90%;
+		max-width:420px;
+		margin:auto
+		}
+
+#startup-graph{
+	margin:120px auto 0;
+	text-align:center
+	}

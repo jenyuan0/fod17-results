@@ -1,0 +1,117 @@
+.footer-wrapper {
+  color: #ffffff;
+  font-family: 'GraphikRegularWeb', sans-serif;
+  background: #000000 url(../images/puppy.png) no-repeat;
+  background-size: 220px;
+  background-position: 80% 94%;
+  padding: 4em 2em 10em;
+}
+
+.footer {
+  color: white;
+  font-size: 16px;
+  line-height: 29px;
+  margin: 0px auto;
+  max-width: 1200px;
+  text-align: center;
+}
+@media (min-width: 1024px) {
+  .footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-content: space-between;
+    align-items: flex-start;
+  }
+}
+
+.footer .center {
+  width: 100%;
+  margin: 50px auto;
+  text-align: center;
+}
+@media (min-width: 1024px) {
+  .footer .center {
+    text-align: left;
+    margin: 0px auto;
+    width: 238px;
+  }
+}
+
+.footer .left {
+  width: 100%;
+  text-align: center;
+}
+@media (min-width: 1024px) {
+  .footer  .left {
+    text-align: left;
+    width: 238px;
+  }
+}
+
+.footer .right {
+  width: 100%;
+  text-align: center;
+  font-size: 12px;
+  line-height: 34px;
+}
+@media (min-width: 1024px) {
+  .footer .right {
+    text-align: right;
+    width: 238px;
+  }
+}
+
+.text-container {
+  margin-top: 0px;
+}
+
+.text-container a {
+  color: white;
+  text-decoration: underline;
+}
+
+.twitter {
+  width: 28px;
+  margin:0 0 12px;
+  cursor: pointer;
+}
+
+.share-button-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+}
+@media (min-width: 1024px) {
+  .share-button-container {
+    justify-content: center;
+  }
+}
+
+.linkedin {
+  width: 25px;
+  cursor: pointer;
+  margin-left: 21px;
+}
+
+.email {
+  height: 16px !important;
+  width: auto;
+  margin:0 0 12px
+}
+@media (max-width: 1024px) {
+  .email {
+    margin: 0px auto;
+  }
+}
+
+.nea {
+  height: 32px !important;
+  width: auto;
+  float:right
+}
+
+.spacer {
+  height: 50px;
+}

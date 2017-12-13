@@ -1,0 +1,38 @@
+.section-money{
+	padding:.1px
+	}
+
+	.section-money .width{
+		margin:120px auto
+		}
+
+.money-content{
+	display:inline-block;
+	width:50%
+	}
+
+	.money-content .money-heading{
+		max-width:280px;
+		margin:0 0 80px
+		}
+
+	.money-content .money-copy{
+		max-width:550px
+		}
+
+.money-image{
+	display:inline-block;
+	width:50%
+	}
+
+	.money-image img{
+		width:90%;
+		max-width:420px;
+		margin:auto
+		}
+
+#money-graph{
+	margin:120px auto 0;
+	text-align:center
+	}
+

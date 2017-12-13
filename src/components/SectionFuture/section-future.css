@@ -1,0 +1,109 @@
+.section-future{
+	padding:.1px
+	}
+
+	.section-future .width{
+		margin:120px auto
+		}
+
+.future-content{
+	display:inline-block;
+	width:50%
+	}
+
+	.future-content .future-heading{
+		max-width:450px;
+		margin:0 0 80px
+		}
+
+.future-image{
+	display:inline-block;
+	width:50%
+	}
+
+	.future-image img{
+		width:90%;
+		max-width:420px;
+		margin:auto
+		}
+
+.future-copy{
+	margin:90px auto 0;
+    -webkit-column-count:2;
+    -moz-column-count:2;
+    column-count:2;
+    -webkit-column-gap:60px;
+    -moz-column-gap:60px;
+	column-gap:60px
+	}
+
+	.future-copy p{
+		margin:0;
+		-webkit-column-break-inside:avoid;
+        page-break-inside:avoid;
+        break-inside:avoid
+		}
+
+#future-graph{
+	margin:120px auto 0;
+	}
+
+	#future-graph .graph-heading{
+        -webkit-column-count:2;
+        -moz-column-count:2;
+        column-count:2;
+        -webkit-column-gap:60px;
+        -moz-column-gap:60px;
+        column-gap:60px;
+		}
+
+	#future-graph .graph-content{
+		margin:40px 0 0;
+        -webkit-column-count:2;
+        -moz-column-count:2;
+        column-count:2;
+        -webkit-column-gap:60px;
+        -moz-column-gap:60px;
+        column-gap:60px;
+		text-align:left
+		}
+
+	#future-graph .bar{
+		position:relative;
+		width:100%;
+		height:40px;
+		margin:0 0 14px;
+		padding:0 12px;
+		color:#5147ff;
+		background:#d9e5ff
+		}
+
+	#future-graph .bar[data-break="break"]{
+		-webkit-break-after:always;
+		-moz-break-after:always;
+		break-after:always;
+		height:0;
+		visibility:hidden
+		}
+
+	#future-graph .bar-title,
+	#future-graph .bar-percentage{
+		position:relative;
+		font-size:20px;
+		line-height:40px;
+		z-index:10
+		}
+
+	#future-graph .bar-percentage{
+		position:absolute;
+		top:0;
+		right:10px
+		}
+
+	#future-graph .bar-fill{
+		position:absolute;
+		height:100%;
+		top:0;
+		left:0;
+		background:#fff
+		}

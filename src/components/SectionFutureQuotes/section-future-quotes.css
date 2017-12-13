@@ -1,0 +1,74 @@
+.section-future-quotes{
+	padding:60px 0
+	}
+
+.section-future-quotes .quotes-title{
+	display:inline-block;
+	width:50%
+	}
+
+	.section-future-quotes .quotes-title .type-large{
+		width:90%;
+		max-width:380px;
+		margin:auto
+		}
+
+.section-future-quotes .quotes-slides{
+	display:inline-block;
+	width:50%
+	}
+
+	.quotes-slides .slide{
+		padding:0 60px
+		}
+
+	.quotes-slides .slide blockquote{
+		margin:auto
+		}
+
+	.quotes-slides .slide blockquote p{
+		margin:25px auto 50px
+		}
+
+	.quotes-slides .slide blockquote:before{
+		content:open-quote
+		}
+
+	.quotes-slides .slide blockquote:after{
+		content:close-quote
+		}
+
+	.quotes-slides .slide blockquote:before,
+	.quotes-slides .slide blockquote:after{
+		display:block;
+		width:25px;
+		height:25px;
+		font:700 65px/45px "Pinopolis",sans-serif;
+		font-family:"Pinopolis"
+		}
+
+	.quotes-slides .slide .quote-logo{
+		height:20px
+		}
+
+	.quotes-slides .slide img{
+		max-width:130px;
+		margin:30px 0 0
+		}
+
+.section-future-quotes .slick-arrow.slick-prev{
+    background:url(../../images/icon-arrow-left-blue.svg) center/contain no-repeat
+    }
+
+.section-future-quotes .slick-arrow.slick-next{
+    background:url(../../images/icon-arrow-right-blue.svg) center/contain no-repeat
+    }
+
+.section-future-quotes .slick-dots li{
+    background:rgba(81,71,255,.3);
+    transition:.3s
+    }
+
+.section-future-quotes .slick-dots li.slick-active{
+    background:rgba(81,71,255,1)
+    }

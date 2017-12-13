@@ -1,0 +1,25 @@
+@font-face {
+  font-family: 'GraphikRegularWeb';
+  src: url('fonts/Graphik-Regular-Web.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'GraphikMediumWeb';
+  src: url('fonts/Graphik-Medium-Web.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'GraphikSemiboldWeb';
+  src: url('fonts/Graphik-Semibold-Web.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'GraphikBoldWeb';
+  src: url('fonts/Graphik-Bold-Web.woff') format('woff');
+}
+
+
+@font-face {
+  font-family: 'Pinopolis';
+  src: url('fonts/Pinopolis-Regular.woff') format('woff');
+}

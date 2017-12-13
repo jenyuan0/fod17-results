@@ -1,0 +1,80 @@
+.section-business{
+	padding:.1px
+	}
+
+	.section-business .width{
+		margin:120px auto
+		}
+
+.business-content{
+	display:inline-block;
+	width:50%
+	}
+
+	.business-content .business-heading{
+		max-width:550px;
+		margin:0 0 80px
+		}
+
+	.business-content .business-copy{
+		max-width:550px
+		}
+
+.business-image{
+	display:inline-block;
+	width:50%
+	}
+
+	.business-image img{
+		width:90%;
+		max-width:420px;
+		margin:auto
+		}
+
+#business-graph{
+	margin:120px auto 0;
+	text-align:center
+	}
+
+	#business-graph .graph-content{
+		margin:40px 0 0;
+        -webkit-column-count:2;
+        -moz-column-count:2;
+        column-count:2;
+        -webkit-column-gap:30px;
+        -moz-column-gap:30px;
+        column-gap:30px;
+		text-align:left
+		}
+
+	#business-graph .bar{
+		position:relative;
+		width:100%;
+		height:40px;
+		margin:0 0 14px;
+		padding:0 12px;
+		color:#fff;
+		background:#a8a3ff
+		}
+
+	#business-graph .bar-title,
+	#business-graph .bar-percentage{
+		position:relative;
+		font-size:20px;
+		line-height:40px;
+		z-index:10
+		}
+
+	#business-graph .bar-percentage{
+		position:absolute;
+		top:0;
+		right:10px
+		}
+
+	#business-graph .bar-fill{
+		position:absolute;
+		height:100%;
+		top:0;
+		left:0;
+		background:#5147ff
+		}

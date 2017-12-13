@@ -1,0 +1,76 @@
+header {
+  padding: 0 1em;
+  background-color: #5147FF;
+  font-family: 'GraphikRegularWeb', sans-serif;
+  color: #ffffff;
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 100
+}
+header .wrapper {
+  display: flex;
+  align-items: center;
+  height: 55px;
+  justify-content: space-between;
+}
+header img {
+  display: block;
+}
+@media (min-width: 1024px) {
+  header .wrapper > * {
+    flex-basis: calc(100% / 3);
+    flex-grow: 1;
+  }
+}
+.logo {
+  display: block;
+  height: 24px;
+}
+header .title {
+  text-align: center;
+  display: none;
+}
+@media (min-width: 1024px) {
+  header .title {
+    display: block;
+  }
+}
+header .links {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+header .links > * {
+  margin: 0 0 0 2em;
+}
+header a.link {
+  text-decoration: underline;
+}
+
+@media (max-width: 1023px) {
+  .results.link {
+    display: inline-block;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+}
+
+header .social {
+  display: inline-block;
+}
+header .social img {
+  width: 31px;
+  cursor: pointer;
+}
+header .social img.logo-twitter {
+  margin-top: 2px;
+}
+header .social img.logo-linkedin {
+  cursor: pointer;
+  width: 19px;
+}

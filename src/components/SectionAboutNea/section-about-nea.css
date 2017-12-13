@@ -1,0 +1,32 @@
+.section-about-nea{
+    padding:.1px
+    }
+
+    .section-about-nea .width{
+        margin:120px auto
+        }
+
+.section-about-nea .about-nea-belief{
+    display:inline-block;
+    width:calc(50% - 30px);
+    margin:0 60px 0 0
+    }
+
+    .section-about-nea .about-nea-belief h1{
+        margin-bottom:
+        }
+
+.section-about-nea .about-nea-company{
+    display:inline-block;
+    width:calc(50% - 30px)
+    }
+
+    .section-about-nea .about-nea-company img{
+        width:40px;
+        margin:0 0 30px
+        }
+
+    .section-about-nea .about-nea-company .company-copy p{
+        margin:-6px 0;
+        font:18px/1.6em "Graphik",Helvetica,sans-serif
+        }

@@ -1,0 +1,27 @@
+.section-product{
+	position:relative;
+	padding:.1px
+	}
+
+	.section-product .width{
+		margin:120px auto 90px
+		}
+
+.product-content{
+	display:inline-block;
+	width:50%
+	}
+
+	.product-content .product-heading{
+		max-width:520px;
+		margin:0 0 80px
+		}
+
+	.product-content .product-copy{
+		max-width:520px
+		}
+
+#product-graph{
+	margin:120px auto 0;
+	text-align:center
+	}

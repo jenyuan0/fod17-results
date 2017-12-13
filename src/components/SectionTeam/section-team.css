@@ -1,0 +1,32 @@
+.section-team{
+    padding:.1px
+    }
+
+    .section-team .width{
+        margin:120px auto
+        }
+
+.section-team .team-grid{
+    justify-content:space-between;
+    -webkit-justify-content:space-between;
+    margin:70px 0 0
+    }
+
+    .team-grid .member{
+        text-align:center
+        }
+
+    .team-grid .member img{
+        max-width:140px;
+        margin:auto
+        }
+
+    .team-grid .member .member-title{
+        margin:20px 0
+        }
+
+    .team-grid .member .member-subtitle,
+    .team-grid .member .member-link{
+        margin:10px 0 0;
+        font:18px/1em "Graphik",Helvetica,sans-serif
+        }
