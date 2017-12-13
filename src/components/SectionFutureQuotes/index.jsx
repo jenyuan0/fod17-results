@@ -1,6 +1,5 @@
 import React from 'react'
 import Slider from 'react-slick'
-
 import './section-future-quotes.css'
 
 const SectionFutureQuotes = ({

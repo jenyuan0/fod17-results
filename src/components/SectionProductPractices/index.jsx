@@ -1,6 +1,4 @@
 import React from 'react'
-import Slider from 'react-slick'
-
 import './section-product-practices.css'
 
 const SectionProductPractices = ({

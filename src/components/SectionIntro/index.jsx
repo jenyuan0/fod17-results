@@ -1,6 +1,5 @@
 import React from 'react';
 import scrollToComponent from 'react-scroll-to-component';
-
 import './section-intro.css'
 import introHeading from '../../images/intro-heading.svg'
 import introIllustrationLeft from '../../images/intro-illustration-left.png'

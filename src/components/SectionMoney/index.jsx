@@ -1,5 +1,4 @@
 import React from 'react'
-
 import './section-money.css'
 import moneyHeading from '../../images/money-heading.svg'
 

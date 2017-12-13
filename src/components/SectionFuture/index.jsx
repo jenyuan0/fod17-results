@@ -1,5 +1,4 @@
 import React from 'react'
-
 import './section-future.css'
 import moneyHeading from '../../images/future-heading.svg'
 

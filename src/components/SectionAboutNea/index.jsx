@@ -1,6 +1,5 @@
 import React from 'react'
 import camelCase from 'lodash.camelcase'
-
 import './section-about-nea.css'
 
 const SectionAboutNea = ({title, sectionName, copy, image, link, linkTitle, subsections}) => {

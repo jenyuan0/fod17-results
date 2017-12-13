@@ -1,7 +1,4 @@
-import React, { Component } from 'react'
-import camelCase from 'lodash.camelcase'
-
-
+import React from 'react'
 import './section-team.css'
 
 const SectionTeam = ({title, sectionName, copy, image, link, linkTitle, subsections}) => {
@@ -23,7 +20,7 @@ return (
 }
 
 const SubSection = ({subsection, idx}) => {
-  const { subsectionCopy, subsectionImage } = subsection
+  const { subsectionImage } = subsection
   return (
     <div className="member">
       <img src={subsectionImage} alt="" />
@@ -35,7 +32,5 @@ const SubSection = ({subsection, idx}) => {
     </div>
   )
 }
-
-const createMarkup = (__html) => ({__html})
 
 export default SectionTeam

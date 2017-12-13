@@ -1,5 +1,4 @@
 import React from 'react'
-
 import './section-startup.css'
 import startupHeading from '../../images/startup-heading.svg'
 

@@ -1,5 +1,4 @@
 import React from 'react'
-
 import './section-business.css'
 import businessHeading from '../../images/business-heading.svg'
 

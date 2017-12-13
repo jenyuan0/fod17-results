@@ -1,5 +1,4 @@
 import React from 'react'
-
 import './section-product.css'
 import productHeading from '../../images/product-heading.svg'
 
