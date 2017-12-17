@@ -130,10 +130,6 @@
 			margin-bottom:60px
 			}
 
-		.future-image img{
-			max-width:240px
-			}
-
 		.future-content .future-heading{
 			margin-bottom:0
 			}
@@ -166,4 +162,19 @@
         column-count:1
 		}
 
-	}
+}
+
+
+
+@media screen and (max-width:600px){
+
+	.future-image img{
+		max-width:240px
+		}
+
+	.future-graph .bar-title,
+	.future-graph .bar-percentage{
+		font-size:14px
+		}
+
+}

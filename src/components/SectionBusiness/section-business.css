@@ -93,10 +93,6 @@
 			margin-bottom:60px
 			}
 
-		.business-image{
-			max-width:240px
-			}
-
 	#business-graph .graph-content{
         -webkit-column-count:1;
         -moz-column-count:1;
@@ -106,6 +102,10 @@
 	}
 
 @media screen and (max-width:600px){
+
+	.business-image{
+		max-width:240px
+		}
 
 	#business-graph .bar-title,
 	#business-graph .bar-percentage{

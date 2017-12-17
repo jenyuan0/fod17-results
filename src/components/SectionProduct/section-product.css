@@ -206,12 +206,16 @@
 			margin-bottom:60px
 			}
 
-		.product-image img{
-			max-width:240px
-			}
-
 	#product-graph{
 		margin:60px auto 0
 		}
 
-	}
+}
+
+@media screen and (max-width:600px){
+
+	.product-image img{
+		max-width:240px
+		}
+
+}

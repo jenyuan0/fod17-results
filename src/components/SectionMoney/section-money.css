@@ -188,10 +188,6 @@
 			margin-bottom:60px
 			}
 
-		.money-image img{
-			max-width:240px
-			}
-
 }
 
 
@@ -204,6 +200,10 @@
 }
 
 @media screen and (max-width:600px){
+
+	.money-image img{
+		max-width:240px
+		}
 
 	#money-graph{
 		width:70%;

@@ -73,10 +73,6 @@
 			margin-bottom:60px
 			}
 
-		.startup-image img{
-			max-width:180px
-			}
-
 		.startup-content .startup-heading{
 			max-width:240px
 			}
@@ -96,4 +92,12 @@
 			}
 
 
-	}
+}
+
+@media screen and (max-width:600px){
+
+	.startup-image img{
+		max-width:180px
+		}
+
+}

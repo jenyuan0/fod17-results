@@ -30,7 +30,7 @@ const Footer = () => {
           <div className='text-container'>
             Designed by <a target="_blank" rel="noopener noreferrer" href="http://takeagander.com/">Gander</a><br />
             Illustration by <a target="_blank" rel="noopener noreferrer" href="http://simonlandrein.com/">Simon Landrein</a><br />
-            Built by <a target="_blank" rel="noopener noreferrer" href="http://human-nyc.com/">Human NYC</a>
+            Built by <a target="_blank" rel="noopener noreferrer" href="http://jenyuan.com/">Jen Yuan</a>
           </div>
         </div>
         <div className='right'>
