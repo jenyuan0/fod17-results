@@ -16,10 +16,28 @@
 
 	.section-slideshow .slideshow-frame{
 		position:relative;
-		min-height:450px;
+		overflow:hidden;
 		background:#fff;
 		border-bottom:20px solid #000;
 		z-index:10
+		}
+
+	.section-slideshow .slideshow-frame:after{
+		content:"";
+		display:block;
+		padding-top:60%
+		}
+
+	.section-slideshow .slideshow-frame iframe{
+		position:absolute;
+		width:101%;
+		height:101%;
+		top:50%;
+		left:50%;
+		-webkit-transform:translate(-50%,-50%);
+		transform:translate(-50%,-50%);
+		border:none;
+		outline:none
 		}
 
 	.section-slideshow img{

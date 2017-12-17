@@ -11,12 +11,14 @@ const SectionSlideshow = ({
   title
 }) => {
 
+  const StrippedString = copy.replace(/(<([^>]+)>)/ig,"");
+
   return (
     <section className="section-slideshow bg-gray" name={sectionName} id={sectionName}>
     <div className="width w-small">
       <h1 className="type-large">View full 2017 results</h1>
       <div className="slideshow-content">
-        <div className="slideshow-frame" dangerouslySetInnerHTML={createMarkup(copy)}></div>
+        <div className="slideshow-frame"><iframe src={StrippedString} frameborder="0" marginwidth="0" marginheight="0" scrolling="no"></iframe></div>
         <img src={image} alt="Design Startup" />
       </div>
       <div className="slideshow-link">
