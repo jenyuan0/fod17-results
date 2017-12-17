@@ -1,15 +1,11 @@
 .section-collaborators{
-	padding:.1px		
+	position:relative
 	}
-
-	.section-collaborators .width{
-		margin:90px auto
-		}
 
 .collaborators-content{
 	display:inline-block;
 	width:480px;
-	margin-right:60px
+	margin:0 60px 0 0
 	}
 
 	.collaborators-content .g-vertical{
@@ -29,15 +25,14 @@
 
 .collaborators-partners{
 	display:inline-block;
-	height:700px;
-	width:calc(100% - 540px)		
+	min-height:600px;
+	width:calc(100% - 540px)
 	}
 
 	.collaborators-partners .logo{
 		position:relative;
-		width:calc(25% - 11.25px);
-		height:25%;
-		margin:0 15px 30px 0
+		width:25%;
+		height:25%
 		}
 
 	.collaborators-partners .logo:after{
@@ -46,14 +41,10 @@
 		padding-top:100%
 		}
 
-	.collaborators-partners .logo:nth-of-type(4n){
-		margin:0 0 30px
-		}
-
 	.collaborators-partners .logo img{
 		position:absolute;
 		display:block;
-		width:70%;
+		width:60%;
 		max-width:110px;
 		max-height:80%;
 		top:50%;
@@ -67,3 +58,43 @@
 	.collaborators-partners .logo img:hover{
 		opacity:.6
 		}
+
+@media screen and (max-width:1024px){
+
+	.collaborators-content{
+		width:100%;
+		margin:0 0 60px
+		}
+
+		.collaborators-content .collaborators-image{
+			position:absolute;
+			max-width:240px;
+			bottom:30px
+			}
+
+	.collaborators-partners{
+		width:100%;
+		margin:0 0 60px
+		}
+
+		.collaborators-partners .logo{
+			width:16.66%
+			}
+
+		.collaborators-partners .logo img{
+			width:60%
+			}
+
+	}
+
+@media screen and (max-width:768px){
+
+	.collaborators-partners{
+		margin:0 0 120px
+		}
+
+	.collaborators-partners .logo{
+		width:25%
+		}
+
+	}

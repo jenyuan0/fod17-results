@@ -13,12 +13,12 @@ const SectionProductPractices = ({
 
   return (
     <section className="section-product-practices bg-lightred" name={sectionName} id={sectionName}>
-      <div className="width g-flex g-center">
-          <div className="practices-title">
-            <h1 className="type-large">{title}</h1>
-          </div>
-          <div className="practices-content" dangerouslySetInnerHTML={createMarkup(copy)}></div>
+    <div className="width g-flex g-center">
+      <div className="practices-title">
+        <h1 className="type-large">{title}</h1>
       </div>
+      <div className="practices-content" dangerouslySetInnerHTML={createMarkup(copy)}></div>
+    </div>
     </section>
   )
 }

@@ -18,21 +18,21 @@ const SectionCollaborators = ({
   }
   return (
     <section className="section-collaborators cr-white bg-blue" name={sectionName} id={sectionName}>
-      <div className="width g-flex">
-        <div className="collaborators-content">
-          <div className="g-flex g-vertical">
-            <div className="collaborators-copy" dangerouslySetInnerHTML={createMarkup(copy)}></div>
-            <div className="collaborators-image">
-              <img src={image} alt="Design + Money" />
-            </div>
-          </div>
-        </div>
-        <div className="collaborators-partners">
-          <div className="g-flex">
-            {subsections}
+    <div className="width g-flex">
+      <div className="collaborators-content">
+        <div className="g-flex g-vertical">
+          <div className="collaborators-copy" dangerouslySetInnerHTML={createMarkup(copy)}></div>
+          <div className="collaborators-image">
+            <img src={image} alt="Design + Money" />
           </div>
         </div>
       </div>
+      <div className="collaborators-partners">
+        <div className="g-flex">
+          {subsections}
+        </div>
+      </div>
+    </div>
     </section>
   )
 }

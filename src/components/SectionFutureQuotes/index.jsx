@@ -20,8 +20,6 @@ const SectionFutureQuotes = ({
 
   var slider_settings = {
     dots: true,
-    autoplay: true,
-    adaptiveHeight: true,
     infinite: true,
     speed: 500,
     slidesToShow: 1,
@@ -30,16 +28,16 @@ const SectionFutureQuotes = ({
 
   return (
     <section className="section-future-quotes cr-blue bg-lightblue" name={sectionName} id={sectionName}>
-      <div className="width g-flex g-center">
-          <div className="quotes-title">
-            <h1 className="type-large">{title}</h1>
-          </div>
-          <div className="quotes-slides">
-            <Slider {...slider_settings}>
-            {subsections}
-            </Slider>
-          </div>
-      </div>
+    <div className="width g-flex g-center">
+        <div className="quotes-title">
+          <h1 className="type-large">{title}</h1>
+        </div>
+        <div className="quotes-slides">
+          <Slider {...slider_settings}>
+          {subsections}
+          </Slider>
+        </div>
+    </div>
     </section>
   )
 }

@@ -1,12 +1,12 @@
 .section-intro{
     position:relative;
-    overflow:hidden
+    overflow:hidden;
+    padding:120px 0 60px
     }
 
 .section-intro .width{
     position:relative;
     max-width:520px;
-    margin:120px auto 60px;
     z-index:10
     }
 
@@ -15,8 +15,8 @@
     }
 
     .section-intro .intro-content{
-        width:520px;
         padding:50px;
+        background:#fff;
         border:3px dashed #6629ff
         }
 
@@ -39,8 +39,8 @@
 .intro-illustration-right{
     position:absolute;
     height:100%;
-    max-width:calc(50% - 300px);
-    top:0;
+    max-width:calc(50% - 210px);
+    top:0
     }
 
     .intro-illustration-left{
@@ -69,7 +69,7 @@
 .intro-arrow{
     position:relative;
     max-width:300px;
-    margin:0 auto 30px;
+    margin:60px auto 30px;
     text-align:center;
     line-height:0;
     cursor:pointer;
@@ -80,3 +80,40 @@
         display:inline-block;
         width:8px
         }
+
+@media screen and (max-width:600px){
+
+    .section-intro{
+        padding:60px 0
+        }
+
+        .section-intro .intro-content p:first-of-type{
+            margin:0 0 20px;
+            font-size:20px
+            }
+
+        .section-intro .intro-heading{
+            margin-bottom:300px
+            }
+
+        .section-intro .intro-content{
+            padding:30px 20px
+            }
+
+    .intro-illustration-left{
+        max-width:100%;
+        top:45vh
+        }
+
+    .intro-illustration-left img{
+        width:100% !important;
+        height:auto !important
+        }
+
+    .intro-illustration-right{
+        display:none
+        }
+
+    }
+
+

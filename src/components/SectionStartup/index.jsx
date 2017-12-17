@@ -19,24 +19,22 @@ const SectionStartup = ({
   return (
 
     <section className="section-startup cr-white bg-black" name={sectionName} id={sectionName}>
-      <div className="width">
-        <div className="g-flex g-center">
-          <div className="startup-content">
-            <div className="section-title cr-white"><span>5</span>Design Startup</div>
-            <img className="startup-heading" src={startupHeading} alt="Winner takes all" />
-            <h1 className="title">{title}</h1>
-            <div className="startup-copy" dangerouslySetInnerHTML={createMarkup(copy)}></div>
-          </div>
-          <div className="startup-image">
-            <img src={image} alt="Design Startup" />
-          </div>
+    <div className="width">
+      <div className="g-flex g-center d-rtl">
+        <div className="startup-image">
+          <img src={image} alt="Design Startup" />
         </div>
-        <div id="startup-graph">
-          <div className="graph-content">
-            {subsections}
-          </div>
+        <div className="startup-content">
+          <div className="section-title cr-white"><span>5</span>Design Startup</div>
+          <img className="startup-heading" src={startupHeading} alt="Winner takes all" />
+          <h1 className="title">{title}</h1>
+          <div className="startup-copy" dangerouslySetInnerHTML={createMarkup(copy)}></div>
         </div>
       </div>
+      <div id="startup-graph" className="g-flex g-bottom">
+        {subsections}
+      </div>
+    </div>
     </section>
   )
 }
@@ -44,13 +42,15 @@ const SectionStartup = ({
 const SubSection = ({subsection, idx}) => {
   const bar_width = subsection.subsectionGraphicPercentage
   const bar_style = {
-    width: bar_width + '%'
+    height: bar_width*2 + 'px'
   };
+  const { subsectionImage } = subsection
   return (
-    <div key={idx} className="bar">
-      <h3 className="bar-title">{subsection.subsectionTitle}</h3>
-      <div className="bar-percentage">{subsection.subsectionGraphicPercentage}</div>
-      <div className="bar-fill" data-fill={subsection.subsectionGraphicPercentage}style={bar_style}></div>
+    <div className="startup">
+      <img src={subsectionImage} alt="" />
+      <div key={idx} className="bar">
+        <div className="bar-fill" data-fill={subsection.subsectionGraphicPercentage}style={bar_style}></div>
+      </div>
     </div>
   )
 }

@@ -19,30 +19,41 @@ const SectionFuture = ({
   return (
 
     <section className="section-future cr-white bg-blue" name={sectionName} id={sectionName}>
-      <div className="width">
-        <div className="g-flex g-center">
-          <div className="future-content">
-            <div className="section-title cr-white"><span>4</span>Design in the Future</div>
-            <img className="future-heading" src={moneyHeading} alt="We're not in Kansas anymore" />
-            <h1 className="title">{title}</h1>
-          </div>
-          <div className="future-image">
-            <img src={image} alt="Design in the Future" />
-          </div>
+    <div className="width">
+      <div className="g-flex g-center d-rtl">
+        <div className="future-image">
+          <img src={image} alt="Design in the Future" />
         </div>
-
-        <div className="future-copy" dangerouslySetInnerHTML={createMarkup(copy)}></div>
-
-        <div id="future-graph">
-          <div className="graph-heading">
-            <h2 className="type-large">Skills - Near Term:</h2>
-            <h2 className="type-large">Skills - Further Out:</h2>
-          </div>
-          <div className="graph-content">
-            {subsections}
-          </div>
+        <div className="future-content">
+          <div className="section-title cr-white"><span>4</span>Design in the Future</div>
+          <img className="future-heading" src={moneyHeading} alt="We're not in Kansas anymore" />
+          <h1 className="title">{title}</h1>
         </div>
       </div>
+
+      <div className="future-copy future-copy-desktop" dangerouslySetInnerHTML={createMarkup(copy)}></div>
+      <div className="future-graph future-graph-desktop">
+        <div className="graph-heading">
+          <h2 className="type-large">Skills - Near Term:</h2>
+          <h2 className="type-large">Skills - Further Out:</h2>
+        </div>
+        <div className="graph-content">
+          {subsections}
+        </div>
+      </div>
+
+      <div className="future-copy future-copy-mobile" dangerouslySetInnerHTML={createMarkup(copy)}></div>
+      <div className="future-graph future-graph-mobile">
+        <div className="graph-heading">
+          <h2 className="type-large">Skills - Near Term:</h2>
+          <h2 className="type-large">Skills - Further Out:</h2>
+        </div>
+        <div className="graph-content">
+          {subsections}
+        </div>
+      </div>
+
+    </div>
     </section>
   )
 }

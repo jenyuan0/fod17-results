@@ -8,7 +8,6 @@
 	}
 
 	.section-product-practices .practices-title .type-large{
-		width:90%;
 		max-width:380px;
 		margin:auto
 		}
@@ -25,3 +24,21 @@
 	.section-product-practices .practices-content li:last-of-type{
 		margin:0
 		}
+
+@media screen and (max-width:768px){
+
+
+	.section-product-practices .practices-title,
+	.section-product-practices .practices-content{
+		width:100%
+		}
+
+	.section-product-practices .practices-title{
+		margin:0 0 30px
+		}
+
+	.section-product-practices .practices-title .type-large{
+		max-width:100%
+		}
+
+	}

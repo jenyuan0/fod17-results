@@ -1,5 +1,5 @@
 .section-business-quotes{
-	padding:60px 0
+	padding:90px 0
 	}
 
 .section-business-quotes .quotes-title{
@@ -8,7 +8,6 @@
 	}
 
 	.section-business-quotes .quotes-title .type-large{
-		width:90%;
 		max-width:380px;
 		margin:auto
 		}
@@ -18,28 +17,28 @@
 	width:50%
 	}
 
-	.quotes-slides .slide{
+	.section-business-quotes .quotes-slides .slide{
 		padding:0 60px
 		}
 
-	.quotes-slides .slide blockquote{
+	.section-business-quotes .quotes-slides .slide blockquote{
 		margin:auto
 		}
 
-	.quotes-slides .slide blockquote p{
+	.section-business-quotes .quotes-slides .slide blockquote p{
 		margin:25px auto 50px
 		}
 
-	.quotes-slides .slide blockquote:before{
+	.section-business-quotes .quotes-slides .slide blockquote:before{
 		content:open-quote
 		}
 
-	.quotes-slides .slide blockquote:after{
+	.section-business-quotes .quotes-slides .slide blockquote:after{
 		content:close-quote
 		}
 
-	.quotes-slides .slide blockquote:before,
-	.quotes-slides .slide blockquote:after{
+	.section-business-quotes .quotes-slides .slide blockquote:before,
+	.section-business-quotes .quotes-slides .slide blockquote:after{
 		display:block;
 		width:25px;
 		height:25px;
@@ -47,11 +46,29 @@
 		font-family:"Pinopolis"
 		}
 
-	.quotes-slides .slide .quote-logo{
+	.section-business-quotes .quotes-slides .slide .quote-logo{
 		height:20px
 		}
 
-	.quotes-slides .slide img{
+	.section-business-quotes .quotes-slides .slide img{
 		max-width:130px;
 		margin:30px 0 0
 		}
+
+@media screen and (max-width:1024px){
+	
+	.section-business-quotes .quotes-title{
+		width:100%;
+		margin:0 0 60px
+		}
+
+	.section-business-quotes .quotes-slides{
+		width:100%;
+		margin:0 auto 60px
+		}
+
+	.section-business-quotes .quotes-slides .slide{
+		padding:0
+		}
+
+	}

@@ -19,16 +19,16 @@ const SectionBusiness = ({
   return (
 
     <section className="section-business bg-lightblue" name={sectionName} id={sectionName}>
-      <div className="width">
-        <div className="g-flex g-center">
+    <div className="width">
+        <div className="g-flex g-center d-rtl">
+          <div className="business-image">
+            <img src={image} alt="Design + Business" />
+          </div>
           <div className="business-content">
             <div className="section-title cr-blue"><span>1</span>Design + Business</div>
             <img className="business-heading" src={businessHeading} alt="Right brain. Please meet left brain" />
             <h1 className="title">{title}</h1>
             <div className="business-copy cr-blue" dangerouslySetInnerHTML={createMarkup(copy)}></div>
-          </div>
-          <div className="business-image">
-            <img src={image} alt="Design + Business" />
           </div>
         </div>
         <div id="business-graph">
@@ -37,7 +37,7 @@ const SectionBusiness = ({
             {subsections}
           </div>
         </div>
-      </div>
+    </div>
     </section>
   )
 }

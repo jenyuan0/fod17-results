@@ -6,6 +6,7 @@
 
 html{
     height:100%;
+    overflow-x:hidden;
     background:#fff
     }
 
@@ -80,14 +81,22 @@ ol a{
     transition:.3s
     }
 
+section{
+    padding:120px 0
+    }
+
 .width{
     width:90%;
     max-width:1400px;
     margin:auto
     }
 
-    .w-medium{
+    .w-large{
         max-width:1200px
+        }
+
+    .w-medium{
+        max-width:900px
         }
 
     .w-small{
@@ -121,6 +130,14 @@ ol a{
     .g-vertical{
         flex-direction:row;
         -webkit-flex-direction:row
+        }
+
+.d-rtl{
+    direction:rtl
+    }
+
+    .d-rtl > *{
+        direction:initial
         }
 
 .section-title{
@@ -193,12 +210,12 @@ ol a{
 
 .slick-arrow.slick-prev{
     left:0;
-    background:url(images/icon-arrow-left-white.svg) center/contain no-repeat
+    background:url(images/icon-arrow-left-white.svg) center left/contain no-repeat
     }
 
 .slick-arrow.slick-next{
     right:0;
-    background:url(images/icon-arrow-right-white.svg) center/contain no-repeat
+    background:url(images/icon-arrow-right-white.svg) center right/contain no-repeat
     }
 
 .slick-dots{
@@ -247,3 +264,36 @@ ol a{
     }
 
 /*  SLIDER - END  */
+
+@media screen and (max-width:1024px){
+
+    .slick-arrow{
+        top:auto;
+        bottom:-60px
+        }
+
+}
+
+@media screen and (max-width:768px){
+
+    .d-rtl{
+        direction:initial
+        }
+
+}
+
+@media screen and (max-width:600px){
+
+    h1,h2,h3,h4,h5,.type-large{
+        font-size:24px
+        }
+
+    p,ul,ol{
+        font-size:20px;
+        }
+
+    section{
+        padding:60px 0
+        }
+
+    }

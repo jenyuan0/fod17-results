@@ -9,12 +9,12 @@ const SectionTeam = ({title, sectionName, copy, image, link, linkTitle, subsecti
 
 return (
     <section className="section-team cr-blue" name={sectionName} id={sectionName}>
-      <div className="width">
-        <h1 className="type-large">> {title}</h1>
-        <div className="team-grid g-flex">
-          {subsections}
-        </div>
+    <div className="width">
+      <h1 className="type-large">> {title}</h1>
+      <div className="team-grid g-flex">
+        {subsections}
       </div>
+    </div>
     </section>
   )
 }
