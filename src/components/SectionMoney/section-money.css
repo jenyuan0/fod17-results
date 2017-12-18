@@ -61,7 +61,7 @@
 			text-align:right;
 			text-transform:uppercase;
 			line-height:0;
-			color:#d63e3e
+			color:#372ea9
 			}
 
 		#money-graph-chart #chart-image .chart-data:first-of-type span,
@@ -70,7 +70,7 @@
 			vertical-align:1px;
 			width:7px;
 			height:7px;
-			background:#d63e3e;
+			background:#372ea9;
 			border-radius:100%
 			}
 
@@ -141,7 +141,7 @@
 	    justify-content:space-between;
 		-webkit-justify-content:space-between;
 		margin:10px 0 0;
-		border-top:2px solid #d63e3e
+		border-top:2px solid #372ea9
 		}
 
 		#money-graph-chart #chart-x-axis .x-axis{
@@ -153,7 +153,7 @@
 			display:block;
 			width:2px;
 			height:10px;
-			background:#d63e3e
+			background:#372ea9
 			}
 
 		#money-graph-chart #chart-x-axis .x-axis span{
