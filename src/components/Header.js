@@ -32,7 +32,7 @@ class Header extends Component {
             <div className='social'>
               <TwitterShareButton
                 url={'http://futureof.design/'}
-                title={"Help uncover how great design works in start-ups along w/ @Spotify @Casper @InVisionApp @Etsy here:"}
+                title={"Find out about the future of design in start-ups from over 300+ co's in a 2017 survey from @nea "}
                 hashtags={['futureofdesign']}
               >
                 <img className='logo-twitter' src={twitter} alt="twitter logo" />
@@ -42,7 +42,7 @@ class Header extends Component {
               <LinkedinShareButton
                 title={"Future Of Design by NEA"}
                 url={'futureof.design'}
-                description={"Help uncover how great design works in start-ups along w/ @Spotify @Casper @InVisionApp @Etsy here: futureof.design #futureofdesign"}
+                description={"Find out about the future of design in start-ups from over 300+ co's in a 2017 survey from @nea http://futureof.design/ #futureofdesign"}
               >
                 <img className='logo-linkedin' src={linkedin} alt="linkedin logo" />
               </LinkedinShareButton>
