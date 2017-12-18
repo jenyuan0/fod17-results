@@ -48,6 +48,7 @@ const SubSection = ({subsection, idx}) => {
       <blockquote dangerouslySetInnerHTML={createMarkup(subsection.subsectionCopy)}></blockquote>
       <div className="quote-logo">
         <img src={subsection.subsectionImage} alt="" />
+        <div className="quote-byline">{subsection.subsectionSubTitle}</div>
       </div>
     </div>
   )

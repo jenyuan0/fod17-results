@@ -66,7 +66,7 @@ const SubSection = ({subsection, idx}) => {
   return (
     <div key={idx} className="bar" data-break={subsection.subsectionSubTitle}>
       <h3 className="bar-title">{subsection.subsectionTitle}</h3>
-      <div className="bar-percentage">{subsection.subsectionGraphicPercentage}</div>
+      <div className="bar-percentage">{subsection.subsectionGraphicPercentage}%</div>
       <div className="bar-fill" data-fill={subsection.subsectionGraphicPercentage}style={bar_style}></div>
     </div>
   )

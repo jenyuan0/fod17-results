@@ -27,7 +27,7 @@ const SubSection = ({subsection, idx}) => {
       <h2 className="member-title type-large">{subsection.subsectionTitle}</h2>
       <div className="member-subtitle">{subsection.subsectionSubTitle}</div>
       <div className="member-link">
-        <a href={subsection.subsectionLink}>{subsection.subsectionLinkTitle}</a>
+        <a href={subsection.subsectionLink} target="_blank">{subsection.subsectionLinkTitle}</a>
       </div>
     </div>
   )

@@ -1,10 +1,11 @@
 import React from 'react';
-import scrollToComponent from 'react-scroll-to-component';
 import './section-intro.css'
 import introHeading from '../../images/intro-heading.svg'
 import introIllustrationLeft from '../../images/intro-illustration-left.png'
 import introIllustrationRight from '../../images/intro-illustration-right.png'
 import introArrowDown from '../../images/intro-arrow-down.svg'
+
+var scrollToElement = require('scroll-to-element');
 
 const SectionIntro = ({
   copy,
@@ -33,7 +34,7 @@ const SectionIntro = ({
       <div className="intro-illustration-right">
         <img src={introIllustrationRight} alt="Intro Illustration Right" />
       </div>
-      <div className="intro-arrow" onClick={() => scrollToComponent(this.intro, { offset:-55, align: 'top', duration:900,ease:'inOutExpo'})}>
+      <div className="intro-arrow" onClick={() => scrollToElement('.section-business', { offset:-55, align: 'top', duration:900,ease:'inOutExpo'})}>
         <div className="cta">Explore top 5 insights</div>
         <img src={introArrowDown} alt="Intro Arrow Down" />
       </div>

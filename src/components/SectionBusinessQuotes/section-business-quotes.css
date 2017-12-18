@@ -1,5 +1,5 @@
 .section-business-quotes{
-	padding:90px 0
+	padding:120px 0
 	}
 
 .section-business-quotes .quotes-title{
@@ -52,7 +52,11 @@
 
 	.section-business-quotes .quotes-slides .slide img{
 		max-width:130px;
-		margin:30px 0 0
+		margin:30px 0 8px
+		}
+
+	.section-business-quotes .quotes-slides .slide .quote-byline{
+		font-size:12px
 		}
 
 @media screen and (max-width:1024px){
@@ -71,4 +75,12 @@
 		padding:0
 		}
 
-	}
+}
+
+@media screen and (max-width:768px){
+
+	.section-business-quotes{
+		padding:90px 0
+		}
+
+}

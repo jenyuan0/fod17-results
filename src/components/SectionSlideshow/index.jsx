@@ -14,7 +14,8 @@ const SectionSlideshow = ({
   const stripped_copy = copy.replace(/(<([^>]+)>)/ig,"");
 
   return (
-    <section className="section-slideshow bg-gray" name={sectionName} id={sectionName}>
+    
+    <section className="section-slideshow bg-gray" name={sectionName} id={sectionName} ref={(section) => { this.slides = section; }}>
     <div className="width w-small">
       <h1 className="type-large">View full 2017 results</h1>
       <div className="slideshow-content">
@@ -22,7 +23,7 @@ const SectionSlideshow = ({
         <img src={image} alt="Design Startup" />
       </div>
       <div className="slideshow-link">
-        <a href={link}>{linkTitle}</a>
+        <a href={link} target="_blank">{linkTitle}</a>
       </div>
     </div>
     </section>

@@ -10,7 +10,7 @@ const SectionAboutNea = ({title, sectionName, copy, image, link, linkTitle, subs
 
 return (
     <section className="section-about-nea cr-blue bg-lightblue" name={sectionName} id={sectionName}>
-    <div className="width g-flex">
+    <div className="width w-large g-flex">
       <div className="about-nea-belief">
         <h1 className="type-large">> {title}</h1>
         <div className="belief-copy" dangerouslySetInnerHTML={createMarkup(copy)}></div>

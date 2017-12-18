@@ -13,7 +13,8 @@
 
 .section-about-nea .about-nea-company{
     display:inline-block;
-    width:calc(50% - 30px)
+    width:calc(50% - 30px);
+    max-width:450px
     }
 
     .section-about-nea .about-nea-company img{

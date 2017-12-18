@@ -2,6 +2,8 @@ import React from 'react'
 import './section-startup.css'
 import startupHeading from '../../images/startup-heading.svg'
 
+var scrollToElement = require('scroll-to-element');
+
 const SectionStartup = ({
   copy,
   image,
@@ -28,7 +30,10 @@ const SectionStartup = ({
           <div className="section-title cr-white"><span>5</span>Design Startup</div>
           <img className="startup-heading" src={startupHeading} alt="Winner takes all" />
           <h1 className="title">{title}</h1>
-          <div className="startup-copy" dangerouslySetInnerHTML={createMarkup(copy)}></div>
+          <div className="startup-copy">
+            <div dangerouslySetInnerHTML={createMarkup(copy)}></div>
+            <p onClick={() => scrollToElement('.section-slideshow', { offset:-55, align: 'top', duration:900,ease:'inOutExpo'})}><span>View the full list</span></p>
+          </div>
         </div>
       </div>
       <div id="startup-graph" className="g-flex g-bottom">

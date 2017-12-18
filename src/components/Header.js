@@ -24,7 +24,7 @@ class Header extends Component {
           </div>
 
           <div className='title'>
-            2017 Call for Submissions
+            2017 Survey Results
           </div>
 
           <div className='right links'>

@@ -7,9 +7,19 @@
 	width:50%
 	}
 
-	.section-product-practices .practices-title .type-large{
+	.section-product-practices .practices-title .type-large,
+	.section-product-practices .practices-title p{
 		max-width:380px;
 		margin:auto
+		}
+
+	.section-product-practices .practices-title p{
+		margin:30px auto 0
+		}
+
+	.section-product-practices .practices-title p span{
+		text-decoration:underline;
+		cursor:pointer
 		}
 
 .section-product-practices .practices-content{
@@ -17,11 +27,16 @@
 	width:50%
 	}
 
-	.section-product-practices .practices-content li{
+	.section-product-practices .practices-content > ul > li{
 		margin:0 0 20px
 		}
 
-	.section-product-practices .practices-content li:last-of-type{
+	.section-product-practices .practices-content > ul > li ol,
+	.section-product-practices .practices-content > ul > li ul{
+		margin:20px 0
+		}
+
+	.section-product-practices .practices-content > ul > li:last-of-type{
 		margin:0
 		}
 
