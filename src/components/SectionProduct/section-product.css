@@ -188,8 +188,9 @@
 		display:block;
 		width:auto;
 		margin:10px auto 0;
-		text-align:center;
-		font-size:12px
+		text-align:left;
+		font-size:11px;
+		line-height:1em
 		}
 
 }

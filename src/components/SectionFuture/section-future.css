@@ -155,8 +155,8 @@
 
 		.future-copy-desktop p:nth-of-type(2),
 		.future-copy-mobile p:nth-of-type(1),
-		.future-graph-desktop .graph-heading .type-large:nth-of-type(2),
-		.future-graph-mobile .graph-heading .type-large:nth-of-type(1){
+		.future-graph-desktop .graph-heading h2:nth-of-type(2),
+		.future-graph-mobile .graph-heading h2:nth-of-type(1){
 			display:none
 			}
 
