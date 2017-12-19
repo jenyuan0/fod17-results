@@ -18,25 +18,22 @@
 	}
 
 	.section-business-quotes .quotes-slides .slide{
-		padding:0 60px;
+		padding:0 60px 60px
 		}
 
-		.section-business-quotes .slick-slide .slide{
+		.section-business-quotes .quotes-slides .slick-initialized .slide{
+			padding:0 60px
 			}
 
 	.section-business-quotes .quotes-slides .slide blockquote{
-		margin:0 auto 60px
+		margin:auto
 		}
 
 	.section-business-quotes .quotes-slides .slide blockquote p{
-		margin:25px auto 75px;
+		margin:25px auto 50px;
 		font-size:22px;
 		font-family:"Pinopolis",sans-serif
 		}
-
-		.section-business-quotes .quotes-slides .slick-initialized .slide blockquote{
-			margin:auto
-			}
 
 	.section-business-quotes .quotes-slides .slide blockquote:before{
 		content:open-quote
