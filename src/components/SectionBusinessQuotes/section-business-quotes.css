@@ -29,14 +29,14 @@
 		}
 
 	.section-business-quotes .quotes-slides .slide blockquote p{
-		margin:25px auto 50px;
+		margin:25px auto 75px;
 		font-size:22px;
 		font-family:"Pinopolis",sans-serif
 		}
 
-	.section-business-quotes .quotes-slides .slick-initialized .slide blockquote{
-		font-size:24px
-		}
+		.section-business-quotes .quotes-slides .slick-initialized .slide blockquote{
+			margin:auto
+			}
 
 	.section-business-quotes .quotes-slides .slide blockquote:before{
 		content:open-quote
