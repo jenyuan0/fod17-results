@@ -28,7 +28,7 @@ const SectionMoney = ({
         </div>
       </div>
       <div id="money-graph" className="width w-small">
-        <h2 className="type-large">Salaries in Design</h2>
+        <h2 className="type-large">Medium Salaries in Design</h2>
         <div id="money-graph-chart">
           <div id="chart-image">
             <img src={moneyChart} alt="Money Chart" />

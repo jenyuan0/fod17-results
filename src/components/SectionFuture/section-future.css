@@ -51,6 +51,12 @@
         column-gap:60px;
 		}
 
+	.future-graph .graph-heading h2 span:not(.type-large){
+		display:block;
+		font-size:22px;
+		text-decoration:none
+		}
+
 	.future-graph .graph-content{
 		margin:40px 0 0;
         -webkit-column-count:2;

@@ -1,5 +1,5 @@
 .section-product-practices{
-	padding:90px 0
+	padding:140px 0
 	}
 
 .section-product-practices .practices-title{
@@ -26,6 +26,11 @@
 	display:inline-block;
 	width:50%
 	}
+
+	.section-product-practices .practices-content p,
+	.section-product-practices .practices-content > ul{
+		margin:0
+		}
 
 	.section-product-practices .practices-content > ul > li{
 		margin:0 0 20px

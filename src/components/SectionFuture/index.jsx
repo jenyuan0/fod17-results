@@ -34,8 +34,8 @@ const SectionFuture = ({
       <div className="future-copy future-copy-desktop" dangerouslySetInnerHTML={createMarkup(copy)}></div>
       <div className="future-graph future-graph-desktop">
         <div className="graph-heading">
-          <h2 className="type-large">Skills - Near Term:</h2>
-          <h2 className="type-large">Skills - Further Out:</h2>
+          <h2><span className="type-large">Skills - Near Term:</span> <span>(by mention)</span></h2>
+          <h2><span className="type-large">Skills - Further Out:</span> <span>(by mention)</span></h2>
         </div>
         <div className="graph-content">
           {subsections}
@@ -45,8 +45,8 @@ const SectionFuture = ({
       <div className="future-copy future-copy-mobile" dangerouslySetInnerHTML={createMarkup(copy)}></div>
       <div className="future-graph future-graph-mobile">
         <div className="graph-heading">
-          <h2 className="type-large">Skills - Near Term:</h2>
-          <h2 className="type-large">Skills - Further Out:</h2>
+          <h2><span className="type-large">Skills - Near Term:</span> <span>(by mention)</span></h2>
+          <h2><span className="type-large">Skills - Further Out:</span> <span>(by mention)</span></h2>
         </div>
         <div className="graph-content">
           {subsections}
@@ -66,7 +66,7 @@ const SubSection = ({subsection, idx}) => {
   return (
     <div key={idx} className="bar" data-break={subsection.subsectionSubTitle}>
       <h3 className="bar-title">{subsection.subsectionTitle}</h3>
-      <div className="bar-percentage">{subsection.subsectionGraphicPercentage}%</div>
+      <div className="bar-percentage">{subsection.subsectionGraphicPercentage}</div>
       <div className="bar-fill" data-fill={subsection.subsectionGraphicPercentage}style={bar_style}></div>
     </div>
   )
