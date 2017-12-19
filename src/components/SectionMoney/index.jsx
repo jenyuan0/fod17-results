@@ -21,7 +21,7 @@ const SectionMoney = ({
           <img src={image} alt="Design + Money" />
         </div>
         <div className="money-content">
-          <div className="section-title cr-white"><span>4</span>Design + Money</div>
+          <div className="section-title cr-white"><span>3</span>Design + Money</div>
           <img className="money-heading" src={moneyHeading} alt="Money talks." />
           <h1 className="title">{title}</h1>
           <div className="money-copy" dangerouslySetInnerHTML={createMarkup(copy)}></div>
