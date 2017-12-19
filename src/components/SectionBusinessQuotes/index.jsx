@@ -1,6 +1,5 @@
 import React from 'react'
 import Slider from 'react-slick'
-import ReactDelayRender from 'react-delay-render';
 import './section-business-quotes.css'
 
 const SectionBusinessQuotes = ({
