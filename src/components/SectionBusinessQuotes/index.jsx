@@ -25,6 +25,7 @@ const SectionBusinessQuotes = ({
     speed: 500,
     adaptiveHeight: true,
     slidesToShow: 1,
+    lazyLoad: true,
     slidesToScroll: 1
   };
 

@@ -25,15 +25,16 @@
 			}
 
 	.section-business-quotes .quotes-slides .slide blockquote{
-		margin:auto
+		margin:0 auto 60px
 		}
 
 	.section-business-quotes .quotes-slides .slide blockquote p{
 		margin:25px auto 50px;
+		font-size:22px;
 		font-family:"Pinopolis",sans-serif
 		}
 
-	.section-business-quotes .quotes-slides .slick-initialized .slide blockquote p{
+	.section-business-quotes .quotes-slides .slick-initialized .slide blockquote{
 		font-size:24px
 		}
 
@@ -51,7 +52,7 @@
 		width:25px;
 		height:25px;
 		font:700 65px/45px "Pinopolis",sans-serif;
-		font-family:"Pinopolis",sans-serif
+		font-family:"Pinopolis"
 		}
 
 	.section-business-quotes .quotes-slides .slide .quote-logo{
