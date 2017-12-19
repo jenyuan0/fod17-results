@@ -29,7 +29,12 @@
 		}
 
 	.section-business-quotes .quotes-slides .slide blockquote p{
-		margin:25px auto 50px
+		margin:25px auto 50px;
+		font-family:"Graphik",sans-serif
+		}
+
+	.section-business-quotes .quotes-slides .slick-initialized .slide blockquote p{
+		font-size:24px
 		}
 
 	.section-business-quotes .quotes-slides .slide blockquote:before{
@@ -50,7 +55,6 @@
 		}
 
 	.section-business-quotes .quotes-slides .slide .quote-logo{
-		height:20px
 		}
 
 	.section-business-quotes .quotes-slides .slide img{

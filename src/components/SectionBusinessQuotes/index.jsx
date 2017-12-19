@@ -1,5 +1,6 @@
 import React from 'react'
 import Slider from 'react-slick'
+import ReactDelayRender from 'react-delay-render';
 import './section-business-quotes.css'
 
 const SectionBusinessQuotes = ({
@@ -35,7 +36,7 @@ const SectionBusinessQuotes = ({
       </div>
       <div className="quotes-slides">
         <Slider {...slider_settings}>
-        {subsections}
+          {subsections}
         </Slider>
       </div>
     </div>

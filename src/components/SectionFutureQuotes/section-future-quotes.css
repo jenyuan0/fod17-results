@@ -26,7 +26,8 @@
 		}
 
 	.section-future-quotes .quotes-slides .slide blockquote p{
-		margin:25px auto 50px
+		margin:25px auto 50px;
+		font-family:"Graphik",sans-serif
 		}
 
 	.section-future-quotes .quotes-slides .slide blockquote:before{
