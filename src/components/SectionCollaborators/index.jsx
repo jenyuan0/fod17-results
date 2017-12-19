@@ -40,7 +40,7 @@ const SectionCollaborators = ({
 const SubSection = ({subsection, idx}) => {
   return (
     <div className="logo">
-      <a href={subsection.link}>
+      <a href={subsection.subsectionLink} target="_blank">
         <img src={subsection.subsectionImage} alt="" />
       </a>
     </div>
