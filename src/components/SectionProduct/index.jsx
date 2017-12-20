@@ -27,7 +27,7 @@ const SectionProduct = ({
         </div>
       </div>
       <div id="product-graph" className="width w-medium">
-        <h2 className="type-large">Ratio of designers to Product Managers:</h2>
+        <h2 className="type-large">Ratio of Designers to Product Managers:</h2>
         <div id="product-graph-chart" className="g-flex">
           <div id="chart">
             <div id="chart-image">
